@@ -1,0 +1,187 @@
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-link {
+color:#000000;
+}
+
+.pad-5 {
+  padding-left: 50px
+}
+
+.nvbr {
+padding: 20px
+}
+
+.dnt-btn {
+border-radius: 30px
+}
+
+.head-text{
+font-size:5rem;
+}
+
+.main-content {
+padding-left:50px;
+}
+
+.main-img {
+height:600px;
+width: 600px;
+}
+
+.pad-3 {
+padding-right: 30px
+}
+
+.contact-section {
+padding: 0px 40px;
+padding-top: 30px
+}
+
+.socials {
+  font-size: 2rem;
+  padding: 0px 10px;
+}
+.card-contact:hover{
+  box-shadow: 0 0 30px #292b2c;
+}
+
+.btn-in {
+border-radius: 20px
+}
+
+.contact-info-emo {
+  font-size: 5rem;
+}
+
+.card-contact {
+  border-radius: 25px;
+  margin: 10px 0px;
+  padding: 0px 20px;
+}
+
+.cntr {
+    padding-top: 20px;
+    padding-left:30px
+}
+
+button a {
+color:#FFFFFF
+}
+
+.register-img {
+height:90%;
+width:90%
+}
+
+.list-emo {
+font-size:3rem;
+}
+
+.reg-in {
+padding:40px
+}
+
+.register-form {
+width:80%
+}
+.register-sec {
+padding:0px
+}
+
+.register-section {
+padding-top:70px
+}
+
+/* CSS */
+.button-86 {
+  all: unset;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-86::after,
+.button-86::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.button-86::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-86:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-86:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+
+@media (max-width:991px) {
+  .pad-5{
+    padding-left: 0px
+  }
+  .drop {
+  display:none;
+  }
+  .main-content {
+  padding-left:0px
+  }
+  .head-text{
+font-size:3rem;
+}
+}
+
+@media (max-width:1201px) {
+.drop-card {
+display:none;
+}
+
+}
