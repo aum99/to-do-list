@@ -83,7 +83,7 @@ class RegisterForm(FlaskForm):
 class LoginForm(FlaskForm):
     username = StringField("Username: ", validators=[DataRequired()])
     password = PasswordField("Password:", validators=[DataRequired()])
-    add_user = SubmitField("Register")
+    add_user = SubmitField("Login")
 
 
 @login_manager.user_loader
