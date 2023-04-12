@@ -82,6 +82,9 @@
             <h5 class="card-title">{{ task.task_name }}</h5>
             <p class="card-text">{{ task.task_description }}</p>
             <div class="row">
+              <div class="col-6">
+                <p>Date: </p>
+              </div>
               <div class="col-6 d-flex justify-content-end">
                 <div class="ps-2">
                   <a class="btn btn-warning" href="{{ url_for('complete_task', task_id=task.id) }}" role="button">Done</a>
