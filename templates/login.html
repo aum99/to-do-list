@@ -1,8 +1,11 @@
 {% include 'header.html' %}
 
 <div class="container register-section d-flex justify-content-center">
-  <div class="card register-card">
-        <div class="card-body reg-in pt-5">
+  <div class="card user-card login-card" style="height:550px">
+      <div class="row">
+          <div class="col-lg-7 image-login"></div>
+          <div class="col-lg-5">
+              <div class="card-body reg-in pt-5">
           <h4>Login </h4>
           <br>
           <h5>Click <a href="{{ url_for('register') }}"><u>here</u></a> if you wanna register for an account</h5>
@@ -20,6 +23,9 @@
               </form>
 
         </div>
+          </div>
+      </div>
+
       </div>
 </div>
 

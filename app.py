@@ -8,6 +8,7 @@ from sqlalchemy.orm import relationship
 from werkzeug.security import generate_password_hash, check_password_hash
 import smtplib
 import os
+import datetime
 
 my_email = os.environ.get("MY_EMAIL")
 password = os.environ.get("PASSWORD")
@@ -15,7 +16,7 @@ password = os.environ.get("PASSWORD")
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URI")
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_URI")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
 

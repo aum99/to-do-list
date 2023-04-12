@@ -17,7 +17,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Add Your Tasks </h5>
-            <p class="card-text">Get a look at all the tasks below and arragne accordingly</p>
+            <p class="card-text">Here is a list of all the tasks. <br>Note-taking is a way to take your learning with you, wherever you go.</p>
           </div>
         </div>
       </div>
@@ -67,8 +67,8 @@
       <div class="cards ">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Add Your Tasks </h5>
-            <p class="card-text">Get a look at all the tasks below and arragne accordingly</p>
+            <h5 class="card-title">Selected task </h5>
+            <p class="card-text">Here is a list of all the selected tasks. <br>You don't have to see the whole staircase, just take the first step</p>
           </div>
         </div>
       </div>
@@ -82,9 +82,6 @@
             <h5 class="card-title">{{ task.task_name }}</h5>
             <p class="card-text">{{ task.task_description }}</p>
             <div class="row">
-              <div class="col-6">
-                <p>Date: </p>
-              </div>
               <div class="col-6 d-flex justify-content-end">
                 <div class="ps-2">
                   <a class="btn btn-warning" href="{{ url_for('complete_task', task_id=task.id) }}" role="button">Done</a>
@@ -115,8 +112,8 @@
       <div class="cards ">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Add Your Tasks </h5>
-            <p class="card-text">Get a look at all the tasks below and arragne accordingly</p>
+            <h5 class="card-title">Completed Tasks </h5>
+            <p class="card-text">Here is a list of all your completed tasks. <br>Remember, the final step is always the hardest, but it's also the most rewarding. </p>
           </div>
         </div>
       </div>

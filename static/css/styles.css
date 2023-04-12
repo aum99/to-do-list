@@ -72,17 +72,31 @@ button a {
 color:#FFFFFF
 }
 
-.register-img {
-height:90%;
-width:90%
-}
-
 .list-emo {
 font-size:3rem;
 }
 
+.image-register {
+        background: url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+          no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+      }
+
+.image-login {
+        background: url('https://images.unsplash.com/photo-1485359466996-ba9d9b4958b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')
+          no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        height:549px
+      }
+
 .reg-in {
-padding:40px
+padding:40px;
 }
 
 .register-form {
@@ -90,6 +104,14 @@ width:80%
 }
 .register-sec {
 padding:0px
+}
+
+.user-card{
+width:80%
+}
+
+.card-body{
+height:100%
 }
 
 .register-section {
@@ -184,4 +206,13 @@ font-size:3rem;
 display:none;
 }
 
+}
+
+@media (max-width:788px) {
+.image-login {
+display:none;
+}
+.container{
+padding:0;
+}
 }
